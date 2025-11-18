@@ -1,0 +1,96 @@
+body{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.main-container{
+	width: 1000px;
+    display: flex;
+}
+.left-panel{
+	width: 30%;
+	background-color: CornflowerBlue;
+	color: white;
+}
+.photo-panel img{
+	width: 100%
+}
+.text-content{
+    padding: 20px;
+}
+.contact-info img{
+	width: 70%;
+}
+.right-panel{
+	width: 70%;
+	background-color: white;
+	padding: 20px;
+}
+.section-title{
+	border-bottom: 2px solid #c0c6d4;
+}
+.year{
+    font-weight: bold;
+    color: darkblue;
+    width: 100px;
+}
+.description{
+    color: black;
+}
+.timeline{
+	display: flex;
+	gap: 15px;
+}
+.tag{
+	display: inline-block;
+	background-color: #e8eef7;
+	color: darkblue; 
+	border-radius: 8px;                
+}
+.hw-lab-container{
+	display: flex;
+	gap: 20px;
+}
+.hw-column{
+    width: 50%;
+    background-color: #f4f6fc;  
+    border-radius: 15px;  
+    padding: 3px 15px;              
+}
+.lab-column{
+    width: 50%;
+    background-color: #f4f6fc; 
+    border-radius: 15px; 
+    padding: 3px 15px;                    
+}
+.lab-column a,.hw-column a{
+	text-decoration: none; 
+	color:darkblue;
+}
+.hw-column a:hover, .lab-column a:hover{
+	color: CornflowerBlue;
+}
+.music-row{
+	display: flex;
+	text-align: center;
+}
+.music-item { 
+    width: 25%;                                 
+    text-decoration: none; 
+    display: flex;
+    flex-direction: column;   
+    color: black;
+    align-items: center;
+}
+.music-item img{
+	width: 50%;
+}
+.song-title{
+	text-align: center;       
+}
+.music-note{
+    font-size: 16px;
+    color: #4a4a4a;
+    text-align: center; 
+}
+
