@@ -1,0 +1,11 @@
+table {
+    margin-top: 20px;
+    width: 60%;
+}
+thead {
+    background-color: #f2f2f2;
+}
+tfoot {
+    font-weight: bold;
+    background-color: #fafafa;
+}
